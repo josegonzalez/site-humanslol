@@ -148,7 +148,7 @@ input[type="text"] {
      -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
 }
-input[type="submit"].btn {
+.btn {
   background: #fffff2;
   border: 1px solid #CCC;
   border-bottom: 1px solid #AAA;
@@ -156,6 +156,8 @@ input[type="submit"].btn {
   margin: 8px 0 0;
   font: normal 14px "proxima-nova", Helvetica, Arial, sans-serif;
   float: right;
+  color: #000;
+  text-decoration: none !important;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
      -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
